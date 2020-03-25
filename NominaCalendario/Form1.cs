@@ -54,6 +54,11 @@ namespace NominaCalendario
                 Dia1.Text = Convert.ToString(ValorT1);
                 T1 = T1 + 1;
             }
+            if (comboBox1.SelectedItem.ToString() == "Turno 2")
+            {
+                Dia1.Text = Convert.ToString(ValorT1);
+                T2 = T2 + 1;
+            }
         }
 
         private void Dia1_Click(object sender, EventArgs e)
